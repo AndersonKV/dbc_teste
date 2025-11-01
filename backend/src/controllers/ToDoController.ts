@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { openDB } from "../database/sqlite";
 import { ToDo } from "../models/Todo";
-import { CreateToDoDTO, UpdateToDoDTO } from "../dto/dto";
+import { CreateToDoDTO, UpdateToDoDTO } from "../dto/todo.dto";
 
 export class ToDoController {
   // Inicializa tabela
